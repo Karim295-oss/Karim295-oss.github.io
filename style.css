@@ -1,0 +1,105 @@
+
+html{
+    height: 100%;
+}
+body{
+    background-color:#2F3835 ;
+background-image: url(images/background-adare-restaurant.jpg);
+/*the iumage is in the background but it is not stretched when minimizing the tab */
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+/*use this 4 background settings to adjust the background image to be as good as well 
+*/
+    }
+
+
+.container
+{
+margin-left: auto;
+margin-right: auto;  
+width: 1024px;
+
+}
+header {
+    height: 118px;
+    text-align: center;
+  
+}
+nav {
+
+    background-color:rgba(0, 0, 0, 0.301);
+     /*for making the color here transparent */
+
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: center;
+  
+}
+main {
+    
+    height: 400px;
+    text-align: center;
+    padding-top: 70px;
+    padding-left: 150px;
+    padding-right: 240px;
+    
+
+/*padding is the spaces inside the boxes 
+but margin is the space outside the box 
+it does not matter when removing the background color 
+because the difference is the color layers of different tags 
+*/
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.598);
+    padding-top: 25px;
+    padding-bottom: 250spx;   
+    margin-top: 1px;
+    margin-bottom: 5px;
+    
+    
+
+
+}
+h1{
+    font-size: 84px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center ;
+}
+p{
+    font-size: 18px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;/*to remove underlines*/
+}
+/*compound selecting to select the a's in the nav tag */
+nav a{
+    text-decoration: none;
+    font-size: 12px;
+    padding-left:10px ;
+    padding-right:10px;
+    /*padding is for the space between the words */
+
+
+
+}
+footer p{
+ 
+    color: white;       
+    text-align: center;
+    font-size: 10px;
+    font-style: normal;
+    
+}
+.maps{ 
+    padding-bottom: 100px;
+}
+
+
